@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="ph2 bg-off-white">
+    <div class="center mw6 pv3">
+        <div>
+            {{ .Content }}
+        </div>
+        <div class="grid">
+            {{ range .Params.illustrations }}
+            <div class="illustration-thumbnail-container" style="background-image: url('{{ .image }}')">
+                <!-- <p>{{ .title }}</p> -->
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class="ph2 bg-off-white">
+    <div class="center mw6 pv3">
+        <div>
+            {{ .Content }}
+        </div>
+        <div>
+            {{ range .Params.projects }}
+            <div>
+                <!-- left column -->
+                <div>
+                    {{ range $index, $element := .images}}
+                    {{ if(eq $index 0) }}
+                    <!-- main image                     -->
+                    <div style="background-image: url('{{ $element }}')">
+                        a
+                    </div>
+                    {{ else }}
+                    <!-- other images -->
+                    <div style="background-image: url('{{ $element }}')">
+                            
+                    </div>
+                    {{ end}}
+                    {{ end }}
+                </div>
+                <!-- right column -->
+                <div>
+                    {{ .description }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

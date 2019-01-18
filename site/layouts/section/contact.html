@@ -1,22 +1,21 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
+<div class="ph2 bg-off-white">
 	<div class="center mw6 pv3">
-
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
-		</div>
-
-		{{ partial "contact-form" . }}
+		<div class="cf ph2-ns">
+			<div class="fl w-100 w-50-ns">
+				<img src="{{ .Params.image }}" alt="" class="db w4 center pv4">
+			</div>
+			<div class="fl w-100 w-50-ns">
+				{{ .Content }}
+				<ul>
+					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-facebook") }}
+					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-twitter") }}
+					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-instagram") }}
+					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-vimeo") }}
+				</ul>
+			</div>
+		  </div>
 
 	</div>
 </div>
