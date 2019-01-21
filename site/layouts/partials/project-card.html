@@ -1,0 +1,37 @@
+<div class="cf mv3 br3 ba b--black-10 flex-ns">
+    <!-- left column -->
+    <div class="w-100 w-50-ns fl flex flex-column">
+        {{ $title := .title }}
+        {{ range $index, $element := .images}}
+        {{ if(eq $index 0) }}
+        <!-- main image                     -->
+        <a data-fancybox="gallery-{{ $title }}" href="{{$element}}" class="fl cf grow project-main-image cover" style="background-image: url('{{ $element }}')">
+        </a>
+
+        {{ end }}
+        {{ end }}
+        <div class="project-side-images">
+                {{ range $index, $element := .images}}
+                {{ if(gt $index 0) }}
+                <!-- other images -->
+                <a data-fancybox="gallery-{{ $title }}" href="{{$element}}" class="fl project-image grow" style="background-image: url('{{ $element }}')">
+                </a>
+                {{end }}
+                {{ end }}
+        </div>
+
+    </div>
+    <!-- right column -->
+    <div class="w-100 w-50-ns fl pa3">
+        <h2 class="mb1 tc">
+            {{ .title }}
+        </h2>
+        <h5 class="mt2 tc"> {{ .type }} </h5>
+        <hr class="mw3 bb bw1 b--black-10">
+        <p>
+            {{ if .description}}
+            {{ .description | markdownify }}
+            {{end}}
+        </p>
+    </div>
+</div>
