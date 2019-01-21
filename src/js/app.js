@@ -8,3 +8,19 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+
+$( '[data-fancybox]' ).fancybox({
+	caption : function( instance, item ) {
+    // console.log($(this).find('figcaption').html())
+    // console.log(item)
+		return $(this).find('figcaption').html();
+	}
+});
+
+$(document).ready(function(){
+  $('.carousel').slick({
+    adaptiveHeight: true,
+    appendArrows: 'div.carousel'
+  });
+});

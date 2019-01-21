@@ -1,18 +1,19 @@
 {{ define "main" }}
 
 <div class="ph2 bg-off-white">
-	<div class="center mw pv3">
+	<div class="center mw7 pv3">
 		<div class="cf ph2-ns">
-			<div class="fl w-100 w-50-ns">
-				<img src="{{ .Params.image }}" alt="" class="db w4 center pv4">
+			<div class="fl w-100 w-50-ns pa3">
+				<img src="{{ .Params.image }}" alt="" class="">
 			</div>
-			<div class="fl w-100 w-50-ns">
+			<div class="fl w-100 w-50-ns pa3">
+				<h1>Contact</h1>
 				{{ .Content }}
-				<ul>
-					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon-detail" (dict "link" "#" "svg" "icons-vimeo") }}
+				<ul class="pa0 mt3">
+					{{ partial "social-icon-detail" (dict "link" .Params.facebook "svg" "icons-facebook") }}
+					{{ partial "social-icon-detail" (dict "link" .Params.twitter "svg" "icons-twitter") }}
+					{{ partial "social-icon-detail" (dict "link" .Params.instagram "svg" "icons-instagram") }}
+					{{ partial "social-icon-detail" (dict "link" .Params.kofi "svg" "icons-vimeo") }}
 				</ul>
 			</div>
 		  </div>

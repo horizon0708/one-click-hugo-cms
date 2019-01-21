@@ -1,5 +1,12 @@
 {{ define "main" }}
+<div class="ph2 bg-off-white">
+    <div class="center mw7 pv3">
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
+        <div class="carousel">
+            {{ range .Params.images }}
+            <div><img src="{{ . }}" alt=""></div>
+            {{ end}}
+        </div>
+    </div>
+</div>
 {{ end }}

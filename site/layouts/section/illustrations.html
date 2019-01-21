@@ -7,22 +7,18 @@
         </div>
         <div class="grid pv3">
             {{ range .Params.illustrations }}
-            <!-- <a data-fancybox="gallery-illustrations" 
-            href="{{ .image }}"  
-            class="link mw5 dt black hide-child br2 cover bg-center" 
-            style="background-image: url('{{ .image }}')"
-            data-caption="{{ .description }}">
-                <span class="no-underline white dtc v-mid  w-100 h-100 child bg-black-40 pa5">
-                        {{ .title }}
-                      </span>
-            </a> -->
-            <a data-fancybox="gallery-illustrations" data-caption="{{ .description }}" href="{{ .image }}" style="background-image:url('{{ .image }}');"
-                class="illustration idb aspect-ratio aspect-ratio--9x16 link hide-child dt black br2 cover bg-center flex justify-center bg-black-40">
+            <div data-fancybox="gallery-illustrations"  href="{{ .image }}"
+                style="background-image:url('{{ .image }}');" 
+                class="illustration idb aspect-ratio aspect-ratio--9x16-ns aspect-ratio--1x1 link hide-child dt black cover bg-center flex justify-center bg-black-40">
                 <div class="overlay"></div>
                 <p class="tc illustration-thumbnail child no-underline white">
                     {{ .title }}
                 </p>
-            </a>
+                <figcaption style="display: none;" class="caption">
+                    <h4>{{ .title }}</h4>
+                    {{ .description | markdownify }}
+                </figcaption>
+            </div>
             {{ end }}
         </div>
     </div>

@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-image: "/img/logo.svg"
+image: "/img/about_real.jpg"
 facebook: "/"
 twitter: "/"
 instagram: "/"
