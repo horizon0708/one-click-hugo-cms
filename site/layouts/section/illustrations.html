@@ -7,6 +7,7 @@
         </div>
         <div class="grid pv3">
             {{ range .Params.illustrations }}
+            {{ .Resources.ByType "image" }}
             <div data-fancybox="gallery-illustrations"  href="{{ .image }}"
                 style="background-image:url('{{ .image }}');" 
                 class="illustration idb aspect-ratio aspect-ratio--9x16-ns aspect-ratio--1x1 link hide-child dt black cover bg-center flex justify-center bg-black-40">
