@@ -2,9 +2,10 @@
 title: Emily Bee
 date: 2019-04-27T03:30:04.571Z
 type: Animation
-description: >-
+description: |-
   A frame-by-frame 2D animation commission for a Youtube channel opening.
-  Digitally drawn in a watercolour paint style. Photoshop, April 2019
+
+  Digital, April 2019
 images:
   - /img/emilyanimationgif.gif
 ---
