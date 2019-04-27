@@ -8,7 +8,7 @@ description: >-
   revisit old favourites and friends in Kansai and Tokyo. 
 
 
-  Brush pen and digital, 20 page A5 Booklet, 2018, $10.
+  Brush pen and digital, 20 page A5 Booklet, 2018. $10
 images:
   - /img/p02_japan/2.jpg
   - /img/p02_japan/3.png
