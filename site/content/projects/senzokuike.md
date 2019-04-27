@@ -10,7 +10,7 @@ description: >-
   Fest Award, Wellington Zinefest 2017. 
 
 
-  traditional multi-media, 22 page A5 Booklet, 2017. $10
+  Traditional multi-media, 22 page A5 Booklet, 2017. $10
 images:
   - /img/senzokuike-1.jpg
   - /img/senzokuike-2.jpg
