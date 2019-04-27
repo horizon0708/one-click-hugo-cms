@@ -1,6 +1,6 @@
 ---
 title: Germinate
-date: 2019-04-27T02:52:47.982Z
+date: 2018-08-03T02:52:47.982Z
 type: Exhibition
 description: >-
   Germinate was an exhibition arranged by the Lemon Eye Artist Collective,
