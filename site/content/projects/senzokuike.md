@@ -7,8 +7,10 @@ description: >-
   beautiful scenery and history. I lived by this pond for two years while
   teaching in Japan and was curious to research and translate the meaning behind
   the many festivals, statues, shrines and temples. Runner up for Best of the
-  Fest Award, Wellington Zinefest 2017. Traditional (brush pen, copic,
-  watercolour), 22 page A5 Booklet, 2017, $10.
+  Fest Award, Wellington Zinefest 2017. 
+
+
+  traditional multi-media, 22 page A5 Booklet, 2017. $10
 images:
   - /img/senzokuike-1.jpg
   - /img/senzokuike-2.jpg
