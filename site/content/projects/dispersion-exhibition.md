@@ -1,10 +1,10 @@
 ---
-title: Dispersion Exhibition
+title: Dispersion
 date: 2019-04-02T11:00:00.000Z
-type: 'Gouache and marker pen on Acrylic, $200 each'
+type: Exhibition
 description: >-
-  Displayed at the New Zealand Parliament Bowen House Exhibition Space 3rd April
-  - 2nd May 2019
+  Displayed at the New Zealand Parliament Bowen House Exhibition Space April -
+  May 2019
 
 
   Reminisce, Retrospect and Retain explore the theme of Dispersion through the
@@ -13,6 +13,9 @@ description: >-
   effect. This warped depth plays with perceived notions of alignment, movement
   and perspective. Each piece embodies a feeling associated with memory,
   visualized as a girl living through past experiences.
+
+
+  Gouache and marker pen on Acrylic, $200 each
 images:
   - /img/fullsizerender-1-.jpg
   - /img/fullsizerender.jpg
