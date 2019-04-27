@@ -49,5 +49,27 @@ illustrations:
   - description: Seasonal stickers sold at Wellington Zinefest
     image: /img/3.png
     title: Sticker
+  - description: Short GIF loop animations to practice simple movements
+    image: /img/1.gif
+    title: Animation
+  - description: Short GIF loop animations to practice simple movements
+    image: /img/2.gif
+    title: Animation
+  - description: Short GIF loop animations to practice simple movements
+    image: /img/3.gif
+    title: Animation
+  - description: Short GIF loop animations to practice simple movements
+    image: /img/4.gif
+    title: Animation
+  - image: /img/img_5768.jpg
+    title: Inktober 2017
+  - image: /img/img_5769.jpg
+    title: Inktober 2017
+  - image: /img/img_5774.jpg
+    title: Inktober 2016
+  - image: /img/img_5776.jpg
+    title: Inktober 2016
+  - image: /img/img_5778.jpg
+    title: Inktober 2016
 ---
 
