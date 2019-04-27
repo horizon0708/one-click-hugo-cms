@@ -6,15 +6,15 @@ description: >-
   [Yomimono
   Ippai](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/yomimono.html)
   is a Japanese Language reading resource website for second-language learners.
-  I have illustrated for \[the Birthmark on
+  I illustrated [The Birthmark on
 
   the Left
   Arm](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/yomimono/PDF_level_3/R_Birth-mark_on_the_left_arm_L3.pdf)
-  (左腕のあざ), \[Balcony
+  (左腕のあざ), [Balcony
   Smoker](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/yomimono/PDF_level_2/R_balcony-smoker_L2.pdf)
   (ホタル族) and
-  \[Narcissus](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/yomimono/PDF_level_2/R_Narcissist_L2.pdf)
-  (あの子こ、ちょっと
+  [Narcissus](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/yomimono/PDF_level_2/R_Narcissist_L2.pdf)
+  (あの子、ちょっと
 
 
   ナルシーよね！) stories. 
